@@ -10,7 +10,7 @@ export function SaleRoutes() {
     <Routes>
       <Route path="/" element={< Home />} />
       <Route path="/product" element={<Product />} />
-      <Routes path="/sales-report" element={<SalesReport />} />
+      <Route path="/sales-report" element={<SalesReport />} />
 
       <Route path="*" exact={true} element={<NotFound />} />
     </Routes>
